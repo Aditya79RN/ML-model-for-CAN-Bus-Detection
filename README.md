@@ -1,11 +1,11 @@
 # 🚗🔐 **Machine Learning Vigilance: Real-Time CAN Bus Anomaly Detection for Automotive Cybersecurity**
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)
 ![Machine Learning](https://img.shields.io/badge/ML-RandomForest%2C%20LSTM-orange?style=flat-square)
 ![Raspberry Pi](https://img.shields.io/badge/Platform-Raspberry%20Pi%204-red?style=flat-square)
 ![Cybersecurity](https://img.shields.io/badge/Domain-Automotive%20Cybersecurity-critical?style=flat-square)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ---
 
