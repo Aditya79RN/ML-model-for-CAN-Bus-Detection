@@ -356,7 +356,7 @@ This project was developed collaboratively by our team of three:
 
 # 🚀 **Developed By**
 
-**Krnk Reddy, Aditya, Praneeth** – Feel free to fork, improve, and experiment!
+**Praneeth, Aditya, Krnk Reddy** – Feel free to fork, improve, and experiment!
 
 ---
 
