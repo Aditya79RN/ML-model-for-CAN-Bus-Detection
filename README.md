@@ -1,4 +1,4 @@
-# 🚗🔐 **Machine Learning Vigilance: Real-Time CAN Bus Anomaly Detection for Automotive Cybersecurity**
+<img width="256" height="70" alt="image" src="https://github.com/user-attachments/assets/89cfb88f-2751-40f7-a547-1f33dc6fe57e" /># 🚗🔐 **Machine Learning Vigilance: Real-Time CAN Bus Anomaly Detection for Automotive Cybersecurity**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)
@@ -333,3 +333,46 @@ All supporting **PDFs and documents** are included in the `/Resources` folder.
 This project is licensed under the **MIT License** — you are free to use, modify, and distribute this project, provided that proper credit is given.
 
 See the full license text in the **LICENSE** file in the repository.
+
+---
+
+# 🙏 **Acknowledgements**
+
+We would like to express our sincere gratitude to the faculty of **KL Deemed to be University** for their continuous support and mentorship throughout this project. Their guidance made the project successful and enriching in multiple versions.
+
+---
+
+# 👥 **Contributors**
+
+This project was developed collaboratively by our team of three:
+
+| Name                          | Role / Contribution                                                     |
+| ----------------------------- | ----------------------------------------------------------------------- |
+| Praneeth Gujjeti              | Feature engineering, deep learning pipeline, evaluation & visualization |
+| Nag Aditya Redboina           | Embedded system integration, real-time monitoring, project lead         |
+| K Ranga Nitheesh Kumar Reddy  | ML model design, dataset preprocessing                                  |
+
+---
+
+# 🚀 **Developed By**
+
+**Krnk Reddy, Aditya, Praneeth** – Feel free to fork, improve, and experiment!
+
+---
+
+# 📬 **Contact**
+
+G Praneeth
+**Email:** [@gmail.com](mailto:@gmail.com)
+**LinkedIn:** [linkedin.com/in/KrnkReddy](https://linkedin.com/in/KrnkReddy)
+**GitHub:** [github.com/Krnkreddy](https://github.com/Krnkreddy)
+
+R Nag Aditya
+**Email:** [@gmail.com](mailto:@gmail.com)
+**LinkedIn:** [linkedin.com/in/KrnkReddy](https://linkedin.com/in/KrnkReddy)
+**GitHub:** [github.com/Krnkreddy](https://github.com/Krnkreddy)
+
+K. Ranga Nitheesh Kumar Reddy
+**Email:** [k.r.nitheeshkumarreddy@gmail.com](mailto:k.r.nitheeshkumarreddy@gmail.com)
+**LinkedIn:** [linkedin.com/in/KrnkReddy](https://linkedin.com/in/KrnkReddy)
+**GitHub:** [github.com/Krnkreddy](https://github.com/Krnkreddy)
