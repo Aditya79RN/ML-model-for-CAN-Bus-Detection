@@ -1,0 +1,75 @@
+# Option A → RandomUnderSampler (fast & simple)
+
+# Option B → Class Weights (skip balancing, let the model handle imbalance)
+
+
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report, accuracy_score
+from imblearn.under_sampling import RandomUnderSampler
+
+# ---------------------------
+# STEP 1: Load Dataset
+# ---------------------------
+print("🔹 Loading ML-ready dataset...")
+df = pd.read_csv("ml_ready_CAN_dataset.csv")
+
+# Drop non-feature columns if present
+if "Flag" in df.columns:
+    df = df.drop(columns=["Flag"])
+
+# Features and Labels
+X = df.drop(columns=["Label"])
+y = df["Label"]
+
+print(f"📊 Original dataset shape: {X.shape}, Labels: {y.value_counts().to_dict()}")
+
+# ---------------------------
+# OPTION A: Undersampling (Fast)
+# ---------------------------
+print("🔹 Balancing dataset with RandomUnderSampler (fast)...")
+rus = RandomUnderSampler(random_state=42)
+X_res, y_res = rus.fit_resample(X, y)
+print(f"✅ Resampled dataset shape: {X_res.shape}, Labels: {y_res.value_counts().to_dict()}")
+
+# ---------------------------
+# OPTION B: Class Weights (Skip balancing)
+# Uncomment this block instead of Option A if you want to use class weights
+# ---------------------------
+# print("⚖️ Using class weights instead of resampling...")
+# X_res, y_res = X, y
+
+# ---------------------------
+# STEP 2: Train-Test Split
+# ---------------------------
+X_train, X_test, y_train, y_test = train_test_split(
+    X_res, y_res, test_size=0.2, random_state=42, stratify=y_res
+)
+
+# ---------------------------
+# STEP 3: Train Model
+# ---------------------------
+print("🚀 Training Random Forest model...")
+clf = RandomForestClassifier(
+    n_estimators=100,
+    random_state=42,
+    class_weight="balanced"  # helps with imbalance even after undersampling
+)
+clf.fit(X_train, y_train)
+
+# ---------------------------
+# STEP 4: Evaluate
+# ---------------------------
+y_pred = clf.predict(X_test)
+
+print("\n📊 Model Performance:")
+print("Accuracy:", accuracy_score(y_test, y_pred))
+print("\nClassification Report:\n", classification_report(y_test, y_pred))
+
+# ---------------------------
+# STEP 5: Save Model (Optional)
+# ---------------------------
+import joblib
+joblib.dump(clf, "can_ml_model.pkl")
+print("💾 Model saved as can_ml_model.pkl")
