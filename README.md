@@ -327,3 +327,9 @@ All supporting **PDFs and documents** are included in the `/Resources` folder.
 </details>
 
 ---
+
+# 📄 License
+
+This project is licensed under the **MIT License** — you are free to use, modify, and distribute this project, provided that proper credit is given.
+
+See the full license text in the **LICENSE** file in the repository.
