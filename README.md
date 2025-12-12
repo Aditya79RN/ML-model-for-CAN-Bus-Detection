@@ -246,75 +246,83 @@ The model is highly reliable for **real-time automotive defense**.
 
 # 📚 References
 
+This section contains all external datasets, research papers, tools, simulators, and resources used during development.  
+All supporting **PDFs and documents** are included in the `/Resources` folder.
+
 <details>
-  <summary>Click to expand</summary>
+  <summary>📂 Click to Expand Full Reference List</summary>
+
+---
 
 ## **Datasets Links**
 
-* [https://ocslab.hksecurity.net/Datasets](https://ocslab.hksecurity.net/Datasets)
-* [https://ocslab.hksecurity.net/Datasets/carchallenge2020](https://ocslab.hksecurity.net/Datasets/carchallenge2020)
-* [https://www.kaggle.com/datasets/pranavjha24/car-hacking-dataset](https://www.kaggle.com/datasets/pranavjha24/car-hacking-dataset)
-* [https://www.kaggle.com/datasets/alexandreroque/can-modes-datasets-in-driving-situations](https://www.kaggle.com/datasets/alexandreroque/can-modes-datasets-in-driving-situations)
-* [https://ieee-dataport.org/open-access/car-hacking-attack-defense-challenge-2020-dataset](https://ieee-dataport.org/open-access/car-hacking-attack-defense-challenge-2020-dataset)
-* [https://data.dtu.dk/articles/dataset/can-train-and-test/24805533?file=43632393](https://data.dtu.dk/articles/dataset/can-train-and-test/24805533?file=43632393)
+* https://ocslab.hksecurity.net/Datasets
+* https://ocslab.hksecurity.net/Datasets/carchallenge2020
+* https://www.kaggle.com/datasets/pranavjha24/car-hacking-dataset
+* https://www.kaggle.com/datasets/alexandreroque/can-modes-datasets-in-driving-situations
+* https://ieee-dataport.org/open-access/car-hacking-attack-defense-challenge-2020-dataset
+* https://data.dtu.dk/articles/dataset/can-train-and-test/24805533?file=43632393
 
 ---
 
 ## **Links & Resources**
 
-* [https://github.com/anir0y/simulator](https://github.com/anir0y/simulator)
-* [https://arxiv.org/pdf/2406.16369](https://arxiv.org/pdf/2406.16369)
-* [https://dr.lib.iastate.edu/server/api/core/bitstreams/772b16ae-b886-4166-86a4-02803b47eded/content](https://dr.lib.iastate.edu/server/api/core/bitstreams/772b16ae-b886-4166-86a4-02803b47eded/content)
-* [https://ocslab.hksecurity.net/Dataset/CAN-intrusion-dataset](https://ocslab.hksecurity.net/Dataset/CAN-intrusion-dataset)
-* [https://www.ieeevtc.org/vtc2023fall/DATA/2023002781.pdf](https://www.ieeevtc.org/vtc2023fall/DATA/2023002781.pdf)
-* [https://arxiv.org/abs/2308.04972](https://arxiv.org/abs/2308.04972)
+* https://github.com/anir0y/simulator
+* https://arxiv.org/pdf/2406.16369
+* https://dr.lib.iastate.edu/server/api/core/bitstreams/772b16ae-b886-4166-86a4-02803b47eded/content
+* https://ocslab.hksecurity.net/Dataset/CAN-intrusion-dataset
+* https://www.ieeevtc.org/vtc2023fall/DATA/2023002781.pdf
+* https://arxiv.org/abs/2308.04972
 
-**ECU Research**
+### **ECU Research**
+* https://github.com/LucianPopaLP/ECUPrint
 
-* [https://github.com/LucianPopaLP/ECUPrint](https://github.com/LucianPopaLP/ECUPrint)
+### **ESP32 CAN Bus Shield**
+* https://store.mrdiy.ca/p/esp32-can-bus-shield/
 
-**ESP32 CAN Bus Shield**
+### **YouTube Resources**
+* https://youtu.be/bA_UupCYzdM?si=O-YX__L7VWjJg7Gq
+* https://www.youtube.com/watch?v=j8MXMMqgksk
+* kali sim – https://www.youtube.com/@risingtidecybersecurity2529/videos
 
-* [https://store.mrdiy.ca/p/esp32-can-bus-shield/](https://store.mrdiy.ca/p/esp32-can-bus-shield/)
+---
 
-**YouTube Resources**
+## **Simulators**
 
-* [https://youtu.be/bA_UupCYzdM?si=O-YX__L7VWjJg7Gq](https://youtu.be/bA_UupCYzdM?si=O-YX__L7VWjJg7Gq)
-* [https://www.youtube.com/watch?v=j8MXMMqgksk](https://www.youtube.com/watch?v=j8MXMMqgksk)
-* kali sim - [https://www.youtube.com/@risingtidecybersecurity2529/videos](https://www.youtube.com/@risingtidecybersecurity2529/videos)
+* http://dafulaielectronics.com/CANBUS_Simulator.pdf
+* http://dafulaielectronics.com/CANBUS_Matlab_datasheet.pdf
+* https://github.com/DoctorSauerkraut/canbus
+* https://github.com/zombieCraig/ICSim?files=1
+* https://www.mkt-sys.de/MKT-CD/upt/help/CANSimulator_01.htm
 
-**Simulators**
+---
 
-* [http://dafulaielectronics.com/CANBUS_Simulator.pdf](http://dafulaielectronics.com/CANBUS_Simulator.pdf)
-* [http://dafulaielectronics.com/CANBUS_Matlab_datasheet.pdf](http://dafulaielectronics.com/CANBUS_Matlab_datasheet.pdf)
-* [https://github.com/DoctorSauerkraut/canbus](https://github.com/DoctorSauerkraut/canbus)
-* [https://github.com/zombieCraig/ICSim?files=1](https://github.com/zombieCraig/ICSim?files=1)
-* [https://www.mkt-sys.de/MKT-CD/upt/help/CANSimulator_01.htm](https://www.mkt-sys.de/MKT-CD/upt/help/CANSimulator_01.htm)
+## **GitHub CAN-IDS**
 
-**Github CAN-IDS**
-
-* [https://github.com/SamGitH02/CAN-BUS-IDS](https://github.com/SamGitH02/CAN-BUS-IDS)
+* https://github.com/SamGitH02/CAN-BUS-IDS
 
 ---
 
 ## **Full Attack Datasets**
 
-* [https://ocslab.hksecurity.net/Dataset/CAN-intrusion-dataset](https://ocslab.hksecurity.net/Dataset/CAN-intrusion-dataset)
-* [https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv](https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv)
-* [https://www.kaggle.com/datasets/bikashkundu/can-hcrl-otids/data](https://www.kaggle.com/datasets/bikashkundu/can-hcrl-otids/data)
+* https://ocslab.hksecurity.net/Dataset/CAN-intrusion-dataset
+* https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv
+* https://www.kaggle.com/datasets/bikashkundu/can-hcrl-otids/data
 
 ---
 
 ## **Chinese Advanced Research Links**
 
-* [https://www.themoonlight.io/file?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2408.17235](https://www.themoonlight.io/file?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2408.17235)
-* [https://blog.csdn.net/TICPSH/article/details/138530387](https://blog.csdn.net/TICPSH/article/details/138530387)
-* [https://blog.csdn.net/gitblog_06791/article/details/147370669](https://blog.csdn.net/gitblog_06791/article/details/147370669)
-* [https://blog.csdn.net/zhaozhaoxiyang/article/details/143435831](https://blog.csdn.net/zhaozhaoxiyang/article/details/143435831)
-* [https://zhuanlan.zhihu.com/p/31511856234](https://zhuanlan.zhihu.com/p/31511856234)
-* [https://juejin.cn/post/7493824873640034319](https://juejin.cn/post/7493824873640034319)
-* [https://arxiv.org/abs/2308.04972v1](https://arxiv.org/abs/2308.04972v1)
-* [http://www.arxivday.com/articles?date=2023-08-09](http://www.arxivday.com/articles?date=2023-08-09)
-* [https://anyun.org/a/shenbingliren/2016/0828/6017.html](https://anyun.org/a/shenbingliren/2016/0828/6017.html)
+* https://www.themoonlight.io/file?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2408.17235
+* https://blog.csdn.net/TICPSH/article/details/138530387
+* https://blog.csdn.net/gitblog_06791/article/details/147370669
+* https://blog.csdn.net/zhaozhaoxiyang/article/details/143435831
+* https://zhuanlan.zhihu.com/p/31511856234
+* https://juejin.cn/post/7493824873640034319
+* https://arxiv.org/abs/2308.04972v1
+* http://www.arxivday.com/articles?date=2023-08-09
+* https://anyun.org/a/shenbingliren/2016/0828/6017.html
 
 </details>
+
+---
