@@ -1,4 +1,4 @@
-<img width="256" height="70" alt="image" src="https://github.com/user-attachments/assets/89cfb88f-2751-40f7-a547-1f33dc6fe57e" /># 🚗🔐 **Machine Learning Vigilance: Real-Time CAN Bus Anomaly Detection for Automotive Cybersecurity**
+# 🚗🔐 **Machine Learning Vigilance: Real-Time CAN Bus Anomaly Detection for Automotive Cybersecurity**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)
