@@ -368,7 +368,7 @@ This project was developed collaboratively by our team of three:
 **GitHub:** [github.com/Praneeth-Gujjeti](https://github.com/)  
 
 ## Nag Aditya Redboina  
-**Email:** [@gmail.com](mailto:@gmail.com)  
+**Email:** [2200049137ece@gmail.com](mailto:2200049137ece@gmail.com)  
 **LinkedIn:** [linkedin.com/in/nag-aditya-116453327/](https://www.linkedin.com/in/nag-aditya-116453327/)  
 **GitHub:** [github.com/Aditya79RN](https://github.com/Aditya79RN)  
 
