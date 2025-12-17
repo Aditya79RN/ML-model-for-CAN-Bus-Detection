@@ -324,6 +324,22 @@ All supporting **PDFs and documents** are included in the `/Resources` folder.
 * http://www.arxivday.com/articles?date=2023-08-09
 * https://anyun.org/a/shenbingliren/2016/0828/6017.html
 
+---
+
+## **Others**
+
+* https://github.com/ainilaha/ppl_car_hacking?tab=readme-ov-file
+* https://github.com/DoctorSauerkraut/canbus
+* https://www.youtube.com/@risingtidecybersecurity2529/videos
+* https://drive.google.com/file/d/1G-VOZRE1dcNvrUy_QjYaOwJ35rxvt1P2/edit?pli=1
+* https://github.com/jiwoo0413/CHD/tree/main
+* https://github.com/search?q=car+hacking+dataset&type=repositories
+* https://ocslab.hksecurity.net/Datasets/carchallenge2020
+* https://www.mkt-sys.de/MKT-CD/upt/help/CANSimulator_01.htm
+* https://av.tib.eu/media/48573
+* https://www.kaggle.com/datasets/pranavjha24/car-hacking-dataset/data
+* https://blog.brendanscullion.com/virtual-can-bus-simulator-virtual-ecu
+
 </details>
 
 ---
