@@ -364,9 +364,9 @@ This project was developed collaboratively by our team of three:
 
 | Name                          | Role / Contribution                                                     |
 | ----------------------------- | ----------------------------------------------------------------------- |
-| Praneeth Gujjeti              | Feature engineering, deep learning pipeline, evaluation & visualization |
+| Praneeth Gujjeti              | ML model design, dataset preprocessing                                  |
 | Nag Aditya Redboina           | Embedded system integration, real-time monitoring, project lead         |
-| K Ranga Nitheesh Kumar Reddy  | ML model design, dataset preprocessing                                  |
+| K Ranga Nitheesh Kumar Reddy  | Feature engineering, deep learning pipeline, evaluation & visualization |
 
 ---
 
