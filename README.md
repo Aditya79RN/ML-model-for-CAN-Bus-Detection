@@ -378,11 +378,6 @@ This project was developed collaboratively by our team of three:
 
 # 📬 **Contact**
 
-## Praneeth Gujjeti  
-**Email:** [@gmail.com](mailto:@gmail.com)  
-**LinkedIn:** [linkedin.com/in/gujjeti-praneeth-42513624a/](https://www.linkedin.com/in/gujjeti-praneeth-42513624a/)  
-**GitHub:** [github.com/Praneeth-Gujjeti](https://github.com/)  
-
 ## Nag Aditya Redboina  
 **Email:** [2200049137ece@gmail.com](mailto:2200049137ece@gmail.com)  
 **LinkedIn:** [linkedin.com/in/nag-aditya-116453327/](https://www.linkedin.com/in/nag-aditya-116453327/)  
@@ -392,3 +387,8 @@ This project was developed collaboratively by our team of three:
 **Email:** [k.r.nitheeshkumarreddy@gmail.com](mailto:k.r.nitheeshkumarreddy@gmail.com)  
 **LinkedIn:** [linkedin.com/in/KrnkReddy](https://linkedin.com/in/KrnkReddy)  
 **GitHub:** [github.com/Krnkreddy](https://github.com/Krnkreddy)  
+
+## Praneeth Gujjeti  
+**Email:** [@gmail.com](mailto:@gmail.com)  
+**LinkedIn:** [linkedin.com/in/gujjeti-praneeth-42513624a/](https://www.linkedin.com/in/gujjeti-praneeth-42513624a/)  
+**GitHub:** [github.com/Praneeth-Gujjeti](https://github.com/)
