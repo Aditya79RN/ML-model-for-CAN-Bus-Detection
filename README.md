@@ -11,7 +11,7 @@
 
 ## 🧠 **Short Description**
 
-A real-time **AI-driven CAN Bus anomaly detection system** designed for **vehicle cybersecurity**, combining **Machine Learning**, **Deep Learning**, and **embedded deployment** on Raspberry Pi.
+A real-time **AI-driven CAN Bus anomaly detection system** designed for **vehicle cybersecurity**, combining **Machine Learning**, **Deep Learning**, and **embedded deployment**.
 The system monitors CAN messages live, detects malicious frames, and flags abnormal behavior instantly.
 
 ---
@@ -31,7 +31,6 @@ This project builds a **real-time defensive layer** to identify & stop such atta
 
 # ✨ Key Features
 
-* ⚡ **Real-time CAN monitoring** using Raspberry Pi + PiCAN2/3
 * 🧼 **Automatic preprocessing & feature extraction**
 * 🌲 **Random Forest & LSTM-based anomaly detection**
 * 🚦 **Live alert system for malicious frames**
@@ -152,7 +151,6 @@ This project uses an **automotive CAN Bus dataset** containing normal & attack t
 | ------------- | -------------------------------- |
 | Language      | Python                           |
 | ML            | Scikit-learn, TensorFlow/PyTorch |
-| Embedded      | Raspberry Pi 4, PiCAN2/3         |
 | CAN Tools     | python-can, can-utils            |
 | Deployment    | Ubuntu 22.04                     |
 | Visualization | Matplotlib, Seaborn              |
@@ -365,7 +363,7 @@ This project was developed collaboratively by our team of three:
 
 | Name                          | Role / Contribution                                                     |
 | ----------------------------- | ----------------------------------------------------------------------- |
-| Nag Aditya Redboina           | Embedded system integration, real-time monitoring, project lead         |
+| Nag Aditya Redboina           | ML model design, Embedded system integration, real-time monitoring, project lead         |
 | K Ranga Nitheesh Kumar Reddy  | ML model design,Feature engineering, deep learning pipeline, evaluation & visualization |
 | Praneeth Gujjeti              |  dataset preprocessing ,ML model design,evaluation                             |
 ---
