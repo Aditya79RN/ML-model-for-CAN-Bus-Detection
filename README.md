@@ -43,39 +43,40 @@ This project builds a **real-time defensive layer** to identify & stop such atta
 
 # 🏗️ System Architecture (ASCII Diagram)
 
-```
-                  ┌───────────────────────┐
-                  │     CAN Network       │
-                  └──────────┬────────────┘
-                             │
-                             ▼
-                 ┌─────────────────────────┐
-                 │ Raspberry Pi + PiCAN HAT│
-                 └──────────┬──────────────┘
-                            │  Raw CAN Frames
-                            ▼
-               ┌───────────────────────────────┐
-               │   Preprocessing Module        │
-               │ - Cleaning                    │
-               │ - Timestamp alignment         │
-               │ - Feature extraction          │
-               └──────────┬────────────────────┘
-                          │  Features
-                          ▼
-               ┌───────────────────────────────┐
-               │     ML & DL Models            │
-               │  (RandomForest / LSTM)        │
-               └──────────┬────────────────────┘
-                          │ Predicted Label
-                          ▼
-               ┌───────────────────────────────┐
-               │ Real-Time Detection Engine    │
-               └──────────┬────────────────────┘
-                          │ Alerts
-                          ▼
-               ┌───────────────────────────────┐
-               │   Dashboard / Log Output      │
-               └───────────────────────────────┘
+```                  ┌─────────────────────────────┐
+                  │ Public CAN Bus Dataset      │
+                  │ (Real Vehicle Dataset)      │
+                  └──────────────┬──────────────┘
+                                 │
+                                 ▼
+                  ┌─────────────────────────────┐
+                  │ Data Preprocessing          │
+                  │ • Data Cleaning             │
+                  │ • Feature Extraction        │
+                  │ • Data Normalization        │
+                  └──────────────┬──────────────┘
+                                 │
+                                 ▼
+                  ┌─────────────────────────────┐
+                  │ Machine Learning Models     │
+                  │ • Training                  │
+                  │ • Testing                   │
+                  │ • Model Evaluation          │
+                  └──────────────┬──────────────┘
+                                 │
+                                 ▼
+                  ┌─────────────────────────────┐
+                  │ Intrusion Detection System  │
+                  │ (Attack Classification)     │
+                  └──────────────┬──────────────┘
+                                 │
+              ┌──────────────────┴──────────────────┐
+              ▼                                     ▼
+     ┌──────────────────┐                 ┌──────────────────┐
+     │ Normal CAN Frame │                 │ Attack Detected  │
+     │  (Allow Traffic) │                 │ (DoS, Spoofing,  │
+     └──────────────────┘                 │  Fuzzy, etc.)    │
+                                          └──────────────────┘
 ```
 
 ---
