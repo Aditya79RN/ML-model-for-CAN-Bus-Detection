@@ -1,4 +1,4 @@
-# 🚗🔐 **Machine Learning Vigilance: Real-Time CAN Bus Anomaly Detection for Automotive Cybersecurity**
+# 🚗🔐 **: Machine learning-based intrusion detection for automotive can bus networks using real vehicle datasets**
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)
