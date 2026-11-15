@@ -384,8 +384,3 @@ This project was developed collaboratively by our team of three:
 **Email:** [k.r.nitheeshkumarreddy@gmail.com](mailto:k.r.nitheeshkumarreddy@gmail.com)  
 **LinkedIn:** [linkedin.com/in/KrnkReddy](https://linkedin.com/in/KrnkReddy)  
 **GitHub:** [github.com/Krnkreddy](https://github.com/Krnkreddy)  
-
-## Praneeth Gujjeti  
-**Email:** [2200039093cser@gmail.com](mailto:@gmail.com)  
-**LinkedIn:** [linkedin.com/in/gujjeti-praneeth-42513624a/](https://www.linkedin.com/in/gujjeti-praneeth-42513624a/)  
-**GitHub:** [github.com/Praneeth-Gujjeti](https://github.com/)
